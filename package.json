@@ -1,0 +1,20 @@
+{
+  "name": "webassembly-a",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "build": "vite build",
+    "preview": "vite preview",
+    "wasm": "wasm-pack build ./rsw --target web",
+    "dev": "yarn wasm && vite",
+    "dev:debug": "vite"
+  },
+  "dependencies": {
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "vite": "^2.9.5",
+    "vite-plugin-wasm-pack": "^0.1.10"
+  }
+}
