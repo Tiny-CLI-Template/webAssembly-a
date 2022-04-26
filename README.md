@@ -5,3 +5,9 @@
 然后使用浏览器提供的 webAssembly api 来操作 rust 代码， 用于测试 js 与 rust 的互操作性。
 
 ![image](https://github.com/nshen/vite-plugin-wasm-pack/raw/main/banner.png)
+
+用于编译rust
+```js
+cargo build
+```
+
